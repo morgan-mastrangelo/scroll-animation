@@ -1,10 +1,16 @@
 import React from "react";
-import Test from "./components/Test";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
-      <Test />
+        <Navbar />
+        <Home />
+        <About />
+        <Contact />
     </>
   );
 }
